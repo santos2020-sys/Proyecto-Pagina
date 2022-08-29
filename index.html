@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<script src="datos.js"></script>
+</head>
+<body>
+	 <div class="container" align="center">
+	        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	          <a class="navbar-brand" href="index.html">BIENVENIDO</a>
+	          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	          </button>
+	          <div class="collapse navbar-collapse" id="navbarNav">
+	            <ul class="navbar-nav">
+	              <li class="nav-item active">
+	                <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+	              </li>
+	              <li class="nav-item">
+	                <a class="nav-link" href="Productos.html">Productos</a>
+	              </li>
+	              <li class="nav-item">
+	                <a class="nav-link" href="Carrito.html">Ver Carrito</a>
+	              </li>
+	            </ul>
+	          </div>
+	        </nav>
+	</div>
+	<div class="container" align="center">
+		<h1>
+			¡Bienvenido al Carrito de Compras
+		</h1>
+		<h4>
+			Nos alegra que nos visites, para nosotros es un placer poderte mostrar nuestros productos puedes seleccionar 
+		</h4>
+		        <div class="row" >
+            <main id="items" class="col-sm-20 row" draggable="true"></main>
+            <aside class="col-sm-4" style="display: none;">
+                <h2>Carrito</h2>
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <p class="text-right">Total: <span id="total"></span> Q</p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+        </div>
+	</div>
+	<footer>
+		<h4 style="color: blue; font: inherit;" >MIEMBROS DEL GRUPO: Santos Ismael Pinzon Garcia 0900-19-4909</h4> 
+	</footer>
+</body>
+</html>
